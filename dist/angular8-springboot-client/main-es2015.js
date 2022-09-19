@@ -445,7 +445,7 @@ __webpack_require__.r(__webpack_exports__);
 let EmployeeService = class EmployeeService {
     constructor(http) {
         this.http = http;
-        this.baseUrl = 'https://employee-service-dot-silken-tenure-359911.uc.r.appspot.com/api/v1/employees';
+        this.baseUrl = 'http://20.7.49.65:8080/api/v1/employees';
     }
     getEmployee(id) {
         return this.http.get(`${this.baseUrl}/${id}`);
@@ -624,7 +624,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/santoshkumarkar/Downloads/employee-ui/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/santoshkumarkar/Downloads/emp-ui/src/main.ts */"./src/main.ts");
 
 
 /***/ })
